@@ -1,0 +1,95 @@
+#quote-box {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+#wrapper_content {
+  border-radius: 3px;
+  position: relative;
+  width: 450px;
+  padding: 40px 50px;
+  display: table;
+  background-color: #fff;
+}
+
+#text {
+  text-align: center;
+  width: 450px;
+  height: auto;
+  clear: both;
+  font-weight: 500;
+  font-size: 1.75em;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
+
+#author {
+  width: 450px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  font-size: 1em;
+  text-align: right;
+}
+
+#buttons #new-quote {
+  float: right;
+  height: 38px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  background-color: black;
+  outline: none;
+  font-size: 0.85em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#buttons #new-quote:hover {
+  opacity: 0.9;
+}
+
+#social_media #tweet-quote,
+#social_media #tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-top: 30px;
+  margin-right: 5px;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+}
+
+* {
+  margin: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+
+.fa {
+  color: white;
+}
+
+footer {
+  width: 450px;
+    text-align: center;
+    display: block;
+    margin: 15px auto 30px auto;
+    font-size: 1em;
+    color: #fff;
+}
+
